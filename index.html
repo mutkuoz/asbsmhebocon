@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Prof. Dr. Aziz Sancar Bilim ve Sanat Merkezi Hebocon '23-24</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Prof. Dr. Aziz Sancar BİLSEM Hebocon '23-24</h1>
+        <img src="atabayrak.png" alt="ATATÜRK" class="ataturk">
+    </header>
+    <nav>
+        <ul>
+            <button>Ana Sayfa</button>
+            <button onclick="scrollToEventSchedule()">Etkinlik Takvimi</button>
+            <button onclick="openRegistrationForm()">Kayıt Ol</button>
+            <button onclick="redirectToContactEmail()">İletişim</button>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <h2>Hoşgeldiniz!</h2>
+            <div class="content">
+                <div class="content-left">
+                    <img src="heboconlogo_yazili.jpg" alt="" class="ornek">
+                </div>
+                <div class="content-right">
+                    <p>Prof. Dr. Aziz Sancar Bilim Sanat Merkezinde gerçekleşecek Hebocon etkinliğimiz ile ilgili duyuru ve bilgiye bu adresten ulaşabilirsiniz.</p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h2>Hebocon Nedir?</h2>
+            <div class="content">
+                <div class="content-left">
+                    <img src="hebocon_ornegi_webtekno.jpg" alt="Kaynak: webtekno.com" class="ornek">
+                </div>
+                <div class="content-right">
+                    <p>Hebocon, "beceri seviyesi düşük" veya "acemi" robot yarışmalarının eğlenceli bir versiyonu olarak ortaya çıkmış bir etkinliktir. Bu yarışmalarda, katılımcılar kendi kendine yapmış oldukları düşük kaliteli robotlarını birbiriyle mücadele ettirirler. Amacı, robotlarının rakiplerini yenmesi yerine, ne kadar komik veya hantal olabileceğini sergilemektir.
+
+                    Hebocon yarışmalarının temel amacı, gelişmiş robotlar yapmak yerine, yarışmacıların yaratıcılıklarını sergilemelerine olanak tanımaktır. Bu yarışmalarda robotlar genellikle basit malzemelerle yapılır, düzensiz hareket ederler ve fazla maliyetli değildir. Seyirciler için eğlenceli bir deneyim sunan bu etkinlik, karmaşık ve pahalı makinelerle rekabet etmek yerine, mizah ve yaratıcılığı öne çıkarır.
+
+                    Hebocon, robotik teknolojinin karmaşıklığını ve mükemmeliyet arayışını tersine çevirerek, hata yapmaktan ve saçma robotlar yapmaktan keyif alan insanlar için mükemmel bir platform sunar. Bu sayede Hebocon, robotik alanında fazla teknik bilgisi veya deneyimi olmayanlara da hitap eder ve bu alana ilgi duyanların kendilerini geliştirmelerine fırsat sağlar.</p>
+                </div>
+            </div>
+            <button onclick="openRegistrationForm()">Kayıt Ol</button>
+        </section>
+        <section>
+            <h2>Prof. Dr. Aziz Sancar BİLSEM Hebocon '23-24</h2>
+            <div class="content">
+                <div class="content-left">
+                    <img src="bilsemlogo.jpg" alt="Kaynak: webtekno.com" class="ornek">
+                </div>
+                <div class="content-right">
+                    <p>Etkinliğimiz, yaş ve eğitim sınırlaması olmaksızın herkese açıktır. Yarışma ile ilgili etkinlik takvimi ve duyuruları bu sayfadan paylaşıyor olacağız. 
+                    
+                    Sorularınız ve detaylı bilgi için Prof. Dr. Aziz Sancar Bilim ve Sanat Merkezi müdürümüz Sn. Selma KÖSEOĞLU veya etkinlik koordinatörümüz Mehmet Utku ÖZTÜRK ile iletişime geçebilirsiniz.</p>
+                </div>
+            </div>
+            <button onclick="redirectToContactEmail()">İletişim</button>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Hebocon Etkinliği</p>
+    </footer>
+    <script src="script.js"></script>
+    <script>
+        function loadHomePage() {
+            // Ana sayfayı yükleyecek kod buraya gelebilir.
+            // Örneğin: window.location.href = "ana_sayfa.html";
+        }
+
+        function scrollToEventSchedule() {
+            window.open("https://docs.google.com/document/d/1KDm5Z4wZbHYSWjVYfklRHEb2LLxgNfjj4h-eLXMq6_o/edit?usp=sharing");
+        }
+
+        function openRegistrationForm() {
+            window.open("https://forms.gle/osa9F9Uk1ivp3jMh9"); 
+        }
+
+        function redirectToContactEmail() {
+            window.location.href = "mailto:asbsmhebocon@gmail.com";
+        }
+    </script>
+</body>
+</html>
